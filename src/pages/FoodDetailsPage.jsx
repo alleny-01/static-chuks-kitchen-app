@@ -1,4 +1,4 @@
-import Detail_img from "../assets/images/FoodDetailsPage/Detailimg.png";
+import DetailImg from "../assets/images/FoodDetailsPage/Detail_img.png";
 import Mobile from "../assets/images/FoodDetailsPage/Mobile.png"
 import Vector from "../assets/images/FoodDetailsPage/Vector.png";
 import Footer from "../components/layout/Footer";
@@ -11,7 +11,7 @@ function FoodDetailsPage() {
       <NavBar />
       <section className="details-section">
       <section className="detail-img">
-        <img src={Detail_img} alt="Detail-img" className="desktop-img"/>
+        <img src={DetailImg} alt="Detail-img" className="desktop-img"/>
         <img src={Mobile} alt="Mobile img" className="mobile-img"/>
       </section>
 
