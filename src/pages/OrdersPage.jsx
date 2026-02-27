@@ -1,6 +1,6 @@
 import Jollof from "../assets/images/OrdersPage/Jollof.png";
 import Egusi from "../assets/images/OrdersPage/Egusi.png";
-import Snails from "../assets/images/OrdersPagE/Snails.png";
+import Snails from "../assets/images/OrdersPage/Snails.png";
 import "../styles/OrdersPage.css";
 import { Link } from "react-router-dom";
 import NavBar from "../components/layout/NavBar";
