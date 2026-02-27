@@ -1,4 +1,4 @@
-import Detail_img from "../assets/images/FoodDetailsPage/Detail_img.png";
+import Detail_img from "../assets/images/FoodDetailsPage/Detailimg.png";
 import Mobile from "../assets/images/FoodDetailsPage/Mobile.png"
 import Vector from "../assets/images/FoodDetailsPage/Vector.png";
 import Footer from "../components/layout/Footer";
