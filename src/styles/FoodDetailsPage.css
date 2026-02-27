@@ -1,0 +1,167 @@
+.detail-img img {
+  width: 630px;
+  height: 100%;
+}
+
+.details-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-details {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #fff;
+  max-width: 600px;
+  height: auto;
+}
+
+.price{
+    color: #FF7A18;
+}
+
+.close {
+  margin-left: auto;
+  text-align: center;
+  border-radius: 0.2em;
+  background-color: #000;
+  width: 30px;
+  padding: 4px;
+  color: #fff;
+}
+
+.flex-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.flex-options div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.protein-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.protein {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+.protein div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.protein p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.extra-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.extra {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+.extra div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.extra p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+.mobile-img{
+  display: none;
+}
+
+@media (max-width: 480px){
+  .details-section{
+    display: block;
+  }
+
+  .detail-img img{
+    width: 100%;
+    height: auto;
+  }
+
+  .desktop-img{
+    display: none;
+  }
+
+  .mobile-img{
+    display: block;
+  }
+
+  .main-details{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .main-details h2{
+    white-space: nowrap;
+  }
+
+  .flex-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-items: start;
+  }
+
+  .flex-options div {
+    background-color: #F3F4F6;
+    border-radius: 0.5em;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 8px;
+    width: 100%;
+  }
+
+  .flex-options div p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+}

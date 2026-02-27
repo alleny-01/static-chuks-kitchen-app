@@ -1,0 +1,34 @@
+.filter-section{
+    display: block;
+    width: 97%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 0.5em;
+}
+
+.filter-section h3{
+    padding: 6px;
+}
+
+.filter-section nav li{
+    list-style-type: none;
+    line-height: 1.5;
+    padding: 6px;
+}
+
+.filter-section nav li:hover{
+    border-left: 2px solid #FF7A18;
+    background-color: #FFE1C4;
+}
+
+@media (max-width: 480px){
+    .filter-section{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .filter-section h3{
+     padding: 6px;
+     margin: 0;   
+}
+}

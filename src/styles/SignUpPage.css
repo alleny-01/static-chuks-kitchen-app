@@ -1,0 +1,188 @@
+.sign-up {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  height: auto;
+}
+
+.sign-up-background-section {
+  background-image:
+    linear-gradient(#ff7a18b2, #ff7a18b2),
+    url("../assets/images/Welcomepage/Banner.png");
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.sign-up-background-section h1 {
+  font-size: 40px;
+}
+
+.sign-up-background-section p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 320px;
+}
+
+.sign-in-section {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.sign-in-form label {
+  font-size: 12px;
+  color: #3b4758;
+}
+
+.sign-in-form input {
+  font-family: Inter;
+  width: 50%;
+  padding: 12px;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #f3f4f6;
+}
+
+#sign-in-email {
+  background-image: url(../assets/images/SignUpPage/Mail.png);
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 15px;
+  padding-left: 40px;
+}
+
+#sign-in-phone {
+  background-image: url(../assets/images/SignUpPage/Call.png);
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 15px;
+  padding-left: 40px;
+}
+
+#sign-in-password {
+  background-image: url(../assets/images/SignUpPage/Lock.png);
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 15px;
+  padding-left: 40px;
+}
+
+#sign-in-cp {
+  background-image: url(../assets/images/SignUpPage/Lock.png);
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 15px;
+  padding-left: 40px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.check p {
+  font-size: 14px;
+}
+
+.check a {
+  text-decoration: none;
+  color: #1e88e5;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.cont a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background-color: #ff7a18;
+  padding: 15px;
+  width: 50%;
+  border-radius: 0.5em;
+}
+
+.sign-in-with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 0.5em;
+  margin: 0.7em;
+  gap: 20px;
+}
+
+.sign-in-with a {
+  text-decoration: none;
+  color: black;
+}
+
+.already-have {
+  font-size: 12px;
+}
+
+.already-have a {
+  text-decoration: none;
+  color: #1e88e5;
+}
+
+@media (max-width: 480px) {
+  .sign-up {
+    display: block;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 30px;
+  }
+
+  .sign-up-background-section {
+    display: none;
+  }
+
+  .sign-in-section {
+    margin-top: 0;
+  }
+
+  .sign-in-form input {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .cont a {
+    width: 100%;
+  }
+
+  .sign-in-with {
+    width: 100%;
+  }
+}

@@ -1,0 +1,140 @@
+.explore-popular-section {
+  margin-top: 40px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.explore-popular-section h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #1F2937;
+}
+
+.popular-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+
+.explore-popular {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+
+.explore-popular p {
+  font-size: 14px;
+}
+
+.explore-popular h3, .explore-popular p{
+    color: #1F2937;
+}
+
+.explore-popular div {
+  padding: 13px;
+}
+
+.explore-popular img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.explore-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.explore-flex p{
+    color: #ff7a18;
+}
+
+.explore-flex button {
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 100%;
+  border: none;
+  background-color: #ff7a18;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+}
+
+.explore-popular-view-all-categories{
+    display: none;
+}
+
+@media (max-width: 480px) {
+  .popular-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .explore-popular {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    line-height: 1;
+  }
+
+  .explore-popular img {
+    width: 120px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5em;
+  }
+
+  .explore-popular h3 {
+    font-size: 14px;
+  }
+
+  .explore-popular p {
+    font-size: 12px;
+  }
+
+  .explore-popular div {
+    padding: 0;
+  }
+
+  .explore-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .explore-flex button{
+    width: 14px;
+    height: 14px;
+    font-size: 16px;
+    padding: 0;       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .explore-popular:nth-child(4),
+  .explore-popular:nth-child(5),
+  .explore-popular:nth-child(6){
+    display: none;
+  }
+
+  .explore-popular-view-all-categories{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #1E88E5;
+  }
+}

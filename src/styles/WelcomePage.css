@@ -1,0 +1,185 @@
+.welcome-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.welcome-img img {
+  width: 650px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.get-started {
+   width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-direction: row-reverse;
+}
+
+.nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #1E88E5;
+  border: 1px solid #1E88E5;
+  width: 100px;
+  padding: 12px;
+  border-radius: 0.5em;
+}
+
+.nav a:hover {
+  background-color: #1E88E5;
+  color: #fff;
+}
+
+.main-section {
+  margin-top: 120px;
+  max-width: 550px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+.write-up h1{
+  color: #1F2937;
+}
+
+.write-up p{
+  font-size: 14px;
+  color: #1F2937;
+}
+
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  gap: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.links {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 1.5em;
+  text-decoration: none;
+  width: 100%;
+}
+
+.links a:first-child {
+  color: #fff;
+  background-color: #ff7a18;
+  padding: 12px;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.links a:nth-child(2) {
+  color: #1E88E5;
+  border: 1px solid #1E88E5;
+  padding: 12px;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.links a:nth-child(2):hover {
+  background-color: #1E88E5;
+  color: #fff;
+}
+
+.footer-section {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #64b5f6;
+}
+
+.welcome-mobile{
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 480px){
+    .welcome-section{
+        display: block;
+    }
+
+    .welcome-desktop{
+      display: none;
+    }
+
+    .welcome-mobile{
+      display: block;
+    }
+
+    .welcome-img img{
+        width: 100%;
+        padding: 20px;
+        height: 200px;
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+
+    .nav a{
+        margin-left: auto;
+        margin-right: 12px;
+    }
+
+    .nav img{
+        margin-top: 60px;
+    }
+
+    .main-section{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .grid .flex{
+        padding: 8px;
+        background-color: #ebeff7;
+        border-radius: 0.5em;
+        gap: 20px;
+    }
+
+    .links{
+        margin: 0;
+    }
+
+    .links a{
+        margin: 1em;
+    }
+
+    .hidden{
+        display: none;
+    }
+    
+}

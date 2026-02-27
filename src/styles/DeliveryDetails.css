@@ -1,0 +1,74 @@
+.delivery-details-section {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  height: auto;
+}
+
+.delivery-details-section h2 {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.home-address-section {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  min-height: 100px;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.change-address{
+    font-size: 12px;
+    color: #1E88E5;
+    white-space: nowrap;
+}
+
+.delivery-time-section {
+    padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  min-height: 50px;
+  border-radius: 0.5em;
+}
+
+.delivery-instructions-section {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  min-height: 80px;
+  border-radius: 0.5em;
+}
+
+.contact-address-section {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  min-height: 50px;
+  border-radius: 0.5em;
+}
+
+.delivery-details-section a{
+  margin-top: 20px;
+  display: block; 
+  text-decoration: none;
+  background-color: #ff7a18;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  text-align: center; 
+  border-radius: 0.5em;  
+}
+
+@media (max-width: 480px) {
+    .delivery-details-section{
+    width: 90%;
+    margin: 70px auto;
+    padding: 15px;
+    }
+}

@@ -1,0 +1,142 @@
+.swallow-container {
+  margin-top: 40px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+.swallow-container h2 {
+  color: #1f2937;
+}
+
+.swallow-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.swallow-item {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.swallow-item div {
+  padding: 13px;
+}
+
+.swallow-item img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.swallow-item h3,
+.swallow-item p {
+  color: #1f2937;
+}
+
+.swallow-item p {
+  font-size: 14px;
+}
+
+.swallow-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swallow-flex p {
+  color: #ff7a18;
+}
+
+.swallow-flex button {
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 100%;
+  border: none;
+  background-color: #ff7a18;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+}
+
+.swallow-section-view-all-categories {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .swallow-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .swallow-item {
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    height: auto;
+    line-height: 1;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .swallow-item img {
+    width: 120px;
+    height: auto;
+    min-height: 120px;
+    object-fit: cover;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+  }
+
+  .swallow-item h3 {
+    font-size: 14px;
+  }
+
+  .swallow-item p {
+    font-size: 12px;
+  }
+
+  .swallow-item div {
+    padding: 0;
+    flex: 1;
+  }
+
+  .swallow-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .swallow-flex button {
+    width: 14px;
+    height: 14px;
+    font-size: 16px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .swallow-section-view-all-categories {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #1e88e5;
+  }
+}

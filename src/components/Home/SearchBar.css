@@ -1,0 +1,31 @@
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+    font-family: Inter;
+  border: none;
+  position: relative;
+  bottom: 23px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  padding: 16px;
+  width: 70%;
+  border-radius: 0.5em;
+  outline: none;
+}
+
+#search {
+    background-image: url(../../assets/images/HomePage/Search.png);
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-size: 18px;
+    padding-left: 40px;
+}
+
+.search input::placeholder {
+  font-family: Inter;
+  font-weight: 500;
+  color: #000;
+}

@@ -1,0 +1,149 @@
+.jollof-container {
+  margin-top: 40px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.jollof-container h2{
+  text-align: left;
+  margin-bottom: 20px;
+  color: #1F2937;
+}
+
+.jollof-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.jollof-item {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.jollof-item div {
+  padding: 13px;
+}
+
+.jollof-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.jollof-item h3{
+    color: #1F2937;
+}
+
+.jollof-item p{
+  font-size: 14px;
+  color: #1F2937;
+}
+
+.jollof-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jollof-flex p{
+  color: #ff7a18;
+}
+
+.jollof-flex button {
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 100%;
+  border: none;
+  background-color: #ff7a18;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+}
+
+.jollof-section-view-all-categories{
+  display: none;
+}
+
+@media (max-width: 480px){
+  .jollof-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .jollof-item{
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    height: auto;
+    line-height: 1;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .jollof-item img{
+    width: 120px;
+    height: auto;
+    min-height: 120px;
+    object-fit: cover;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+  }
+
+  .jollof-item h3{
+     font-size: 14px;
+  }
+
+   .jollof-item p {
+    font-size: 12px;
+  }
+
+  .jollof-item div{
+    padding: 0;
+    flex: 1;
+  }
+
+  .jollof-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .jollof-flex button{
+    width: 14px;
+    height: 14px;
+    font-size: 16px;
+    padding: 0;       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .jollof-flex p{
+    color: #ff7a18;
+  }
+
+  .jollof-section-view-all-categories{
+     margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #1E88E5;
+  }
+}
