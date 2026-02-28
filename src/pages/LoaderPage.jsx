@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Loader from "../assets/images/LoaderPage/Loader.png";
 import Footer from "../components/layout/Footer";
 import NavBar from "../components/layout/NavBar";
 import "../styles/LoaderPage.css";
@@ -9,7 +8,7 @@ function LoaderPage() {
     <>
       <NavBar />
       <div className="loader">
-        <img src={Loader} alt="Loading" />
+        <img src="/images/LoaderPage/Loader.png" alt="Loading" />
       </div>
 
       <div className="proceed-to-summary">

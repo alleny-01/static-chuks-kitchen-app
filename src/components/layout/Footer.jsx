@@ -1,4 +1,3 @@
-import Logo from '../../assets/images/WelcomePage/Logo.png'
 import { NavLink } from "react-router-dom";
 import './Footer.css'
 
@@ -7,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-info">
         <div className="footer-logo">
-          <img src={Logo} alt="Logo" />
+          <img src="/images/WelcomePage/Logo.png" alt="Logo" />
           <p>Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
         </div>
 

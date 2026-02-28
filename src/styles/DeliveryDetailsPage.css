@@ -16,6 +16,7 @@
   padding: 10px;
   border: 1px solid #ccc;
   width: 100%;
+  font-size: 14px;
   min-height: 100px;
   border-radius: 0.5em;
   display: flex;
@@ -24,9 +25,9 @@
 }
 
 .change-address{
-    font-size: 12px;
     color: #1E88E5;
     white-space: nowrap;
+    font-size: 14px;
 }
 
 .delivery-time-section {
@@ -35,7 +36,9 @@
   width: 100%;
   min-height: 50px;
   border-radius: 0.5em;
+  font-size: 14px;
 }
+
 
 .delivery-instructions-section {
   padding: 10px;
@@ -43,6 +46,7 @@
   width: 100%;
   min-height: 80px;
   border-radius: 0.5em;
+  font-size: 14px;
 }
 
 .contact-address-section {
@@ -51,6 +55,7 @@
   width: 100%;
   min-height: 50px;
   border-radius: 0.5em;
+  font-size: 14px;
 }
 
 .delivery-details-section a{
@@ -59,7 +64,8 @@
   text-decoration: none;
   background-color: #ff7a18;
   width: 100%;
-  padding: 10px;
+  padding: 12px;
+  font-size: 14px;
   color: #fff;
   text-align: center; 
   border-radius: 0.5em;  

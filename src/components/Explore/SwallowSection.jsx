@@ -1,6 +1,4 @@
 import "./SwallowSection.css";
-import Amala from "../../assets/images/ExplorePage/Amala.png";
-import Fufu from "../../assets/images/ExplorePage/Fufu.png";
 
 function SwallowSection() {
   return (
@@ -9,7 +7,7 @@ function SwallowSection() {
 
       <div className="swallow-section">
         <div className="swallow-item">
-          <img src={Amala} alt="Amala" />
+          <img src="/images/ExplorePage/Amala.png" alt="Amala" />
 
           <div>
             <h3>Amala with Gbegiri & Ewedu</h3>
@@ -26,7 +24,7 @@ function SwallowSection() {
         </div>
 
         <div className="swallow-item">
-          <img src={Fufu} alt="Fufu" />
+          <img src="/images/ExplorePage/Fufu.png" alt="Fufu" />
 
           <div>
             <h3>Fufu & Okra Soup (Fish)</h3>
@@ -40,7 +38,7 @@ function SwallowSection() {
         </div>
 
         <div className="swallow-item">
-          <img src={Fufu} alt="Fufu" />
+          <img src="/images/ExplorePage/Fufu.png" alt="Fufu" />
 
           <div>
             <h3>Fufu & Okra Soup (Fish)</h3>

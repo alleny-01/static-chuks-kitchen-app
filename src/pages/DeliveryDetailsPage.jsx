@@ -30,7 +30,7 @@ function DeliveryDetailsPage() {
       <h3>Contact Address</h3>
       <div className="contact-address-section">+234 801 234 5678</div>
 
-      <Link to='/payment'>Proceed to Pay</Link>
+      <Link to='/payment'>Proceed to Pay &rarr;</Link>
     </section>
 
     <Footer />

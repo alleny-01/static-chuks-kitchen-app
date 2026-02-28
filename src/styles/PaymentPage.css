@@ -17,9 +17,17 @@
   padding-bottom: 15px;
 }
 
+.payment-section h3{
+  font-size: 16px;
+}
+
 .payment-method {
   display: flex;
   gap: 30px;
+}
+
+.payment-method label{
+  font-size: 14px;
 }
 
 .payment-method div {
@@ -31,6 +39,10 @@
   padding-top: 50px;
   display: flex;
   flex-direction: column;
+}
+
+.card-input label, .other-inputs label{
+  font-size: 14px;
 }
 
 .card-input input {
@@ -65,6 +77,7 @@
   padding-top: 10px;
   display: flex;
   gap: 15px;
+  font-size: 14px;
 }
 
 .payment-section a {
@@ -77,11 +90,13 @@
   color: #fff;
   text-align: center;
   border-radius: 0.5em;
+  font-size: 14px;
 }
 
 .privacy-policy {
-  font-size: 14px;
+  font-size: 12px;
   color: #ccc;
+  font-weight: 300;
 }
 
 @media (max-width: 480px) {

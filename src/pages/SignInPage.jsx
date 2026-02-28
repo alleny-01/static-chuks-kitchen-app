@@ -1,6 +1,3 @@
-import Logo from "../assets/images/SignInPage/Logo.png";
-import Google from "../assets/images/SignInPage/Google.png";
-import Facebook from "../assets/images/SignInPage/Facebook.png";
 import "../styles/SignInPage.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/layout/Footer";
@@ -18,7 +15,7 @@ function SignInPage() {
       </section>
 
       <section className="log-in-section">
-        <img src={Logo} alt="Logo" />
+        <img src="/images/SignInPage/Logo.png" alt="Logo" />
         <h2>Login your Account</h2>
 
         <div className="log-in-form">
@@ -41,11 +38,11 @@ function SignInPage() {
         </div>
 
         <div className="flex-item">
-          <img src={Google} alt="Google" />
+          <img src="/images/SignInPage/Google.png" alt="Google" />
           <a href="#">Continue with Google</a>
         </div>
         <div className="flex-item">
-          <img src={Facebook} alt="Facebook" />
+          <img src="/images/SignInPage/Facebook.png" alt="Facebook" />
           <a href="#">Continue with Apple</a>
         </div>
 

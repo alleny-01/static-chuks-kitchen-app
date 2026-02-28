@@ -1,7 +1,5 @@
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/images/WelcomePage/Logo.png";
-import Hamburger from "../../assets/images/WelcomePage/Hamburger.png";
 import { useState } from "react";
 
 function NavBar() {
@@ -9,7 +7,7 @@ function NavBar() {
   return (
     <>
       <section className="nav-section">
-        <img src={Logo} alt="Logo" />
+        <img src="/images/WelcomePage/Logo.png" alt="Logo" />
 
         <div className="nav-flex">
           <NavLink to='/home'>Home</ NavLink>
@@ -20,7 +18,7 @@ function NavBar() {
         </div>
 
         <div className="hamburger-section">
-          <img src={Hamburger} alt="Hamburger" onClick={() => setToggle(!toggle)}/>
+          <img src="/images/WelcomePage/Hamburger.png" alt="Hamburger" onClick={() => setToggle(!toggle)}/>
         </div>
       </section>
 

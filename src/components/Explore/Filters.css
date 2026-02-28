@@ -8,12 +8,14 @@
 
 .filter-section h3{
     padding: 6px;
+    font-size: 16px;
 }
 
 .filter-section nav li{
     list-style-type: none;
     line-height: 1.5;
     padding: 6px;
+    font-size: 14px;
 }
 
 .filter-section nav li:hover{

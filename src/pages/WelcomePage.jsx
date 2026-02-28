@@ -1,10 +1,5 @@
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
-import Banner from "../assets/images/WelcomePage/Banner.png"
-import Mobile from "../assets/images/WelcomePage/WelcomeMobile.png"
-import Logo from "../assets/images/WelcomePage/Logo.png";
-import Cutleries from "../assets/images/WelcomePage/Cutleries.png";
-import Delivery from "../assets/images/WelcomePage/Delivery.png";
 import Footer from "../components/layout/Footer";
 
 function WelcomePage() {
@@ -12,14 +7,14 @@ function WelcomePage() {
     <>
       <main className="welcome-section">
       <section className="welcome-img">
-        <img src={Banner} alt="banner" className="welcome-desktop"/>
-        <img src={Mobile} alt="Mobile-img" className="welcome-mobile"/>
+        <img src="/images/WelcomePage/Banner.png" alt="banner" className="welcome-desktop"/>
+        <img src="../../../public/images/WelcomePage/WelcomeMobile.png" alt="Mobile-img" className="welcome-mobile"/>
       </section>
 
       <section className="get-started">
         <div className="nav">
           <Link to='/signin'>Sign in</Link>
-          <img src={Logo} alt="logo" />
+          <img src="/images/WelcomePage/Logo.png" alt="logo" />
         </div>
 
         <div className="main-section">
@@ -34,17 +29,17 @@ function WelcomePage() {
 
           <div className="grid">
             <div className="flex">
-              <img src={Cutleries} alt="Cutleries" />
+              <img src="/images/WelcomePage/Cutleries.png" alt="Cutleries" />
               <p>Freshly Prepared</p>
             </div>
 
             <div className="flex">
-              <img src={Cutleries} alt="Cutleries" />
+              <img src="/images/WelcomePage/Cutleries.png"  alt="Cutleries" />
               <p>Support Local Business</p>
             </div>
 
             <div className="flex">
-              <img src={Delivery} alt="Delivery" />
+              <img src="/images/WelcomePage/Cutleries.png"  alt="Delivery" />
               <p>Fast & Reliable Delivery</p>
             </div>
           </div>

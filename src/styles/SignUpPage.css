@@ -8,7 +8,7 @@
 .sign-up-background-section {
   background-image:
     linear-gradient(#ff7a18b2, #ff7a18b2),
-    url("../assets/images/WelcomePage/Banner.png");
+    url("/images/WelcomePage/Banner.png");
   width: 100%;
   height: 900px;
   text-align: center;
@@ -62,7 +62,7 @@
 }
 
 #sign-in-email {
-  background-image: url(../assets/images/SignUpPage/Mail.png);
+  background-image: url("/images/SignUpPage/Mail.png");
   background-repeat: no-repeat;
   background-position: 12px center;
   background-size: 15px;
@@ -70,7 +70,7 @@
 }
 
 #sign-in-phone {
-  background-image: url(../assets/images/SignUpPage/Call.png);
+  background-image: url("/images/SignUpPage/Call.png");
   background-repeat: no-repeat;
   background-position: 12px center;
   background-size: 15px;
@@ -78,7 +78,7 @@
 }
 
 #sign-in-password {
-  background-image: url(../assets/images/SignUpPage/Lock.png);
+  background-image: url("/images/SignUpPage/Lock.png");
   background-repeat: no-repeat;
   background-position: 12px center;
   background-size: 15px;
@@ -86,7 +86,7 @@
 }
 
 #sign-in-cp {
-  background-image: url(../assets/images/SignUpPage/Lock.png);
+  background-image: url("/images/SignUpPage/Lock.png");
   background-repeat: no-repeat;
   background-position: 12px center;
   background-size: 15px;

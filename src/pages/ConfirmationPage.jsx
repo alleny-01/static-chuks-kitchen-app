@@ -1,5 +1,4 @@
 import "../styles/ConfirmationPage.css";
-import Check from "../assets/images/ConfirmationPage/Check.png";
 import NavBar from "../components/layout/NavBar";
 import Footer from "../components/layout/Footer";
 
@@ -8,7 +7,7 @@ function ConfirmationPage() {
     <>
       <NavBar />
       <section className="confirmation-section">
-        <img src={Check} alt="Success" />
+        <img src="/images/ConfirmationPage/Check.png" alt="Success" />
         <p>Order Placed Succesfully!</p>
         <p>Your delicious Chuks Kitchen meal is on its way!</p>
 

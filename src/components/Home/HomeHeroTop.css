@@ -1,5 +1,5 @@
 .hero-1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url('../../assets/images/HomePage/Hero.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url('/images/HomePage/Hero.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 700px;

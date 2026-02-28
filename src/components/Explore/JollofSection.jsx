@@ -1,5 +1,3 @@
-import Jollof from "../../assets/images/ExplorePage/Jollof.png";
-import Smoked from "../../assets/images/ExplorePage/Smoked.png";
 import "./JollofSection.css";
 
 function JollofSection() {
@@ -9,7 +7,7 @@ function JollofSection() {
 
       <div className="jollof-section">
         <div className="jollof-item">
-          <img src={Smoked} alt="Smoked Jollof" />
+          <img src="/images/ExplorePage/Smoked.png" alt="Smoked Jollof" />
           <div>
             <h3>Jollof Rice & Smoked Fish</h3>
             <p>Flavorful jollof rice served with perfectly smoked fish.</p>
@@ -22,7 +20,7 @@ function JollofSection() {
         </div>
 
         <div className="jollof-item">
-          <img src={Jollof} alt="Jollof" />
+          <img src="/images/ExplorePage/Jollof.png" alt="Jollof" />
           <div>
             <h3>Party Jollof Rice (Veg)</h3>
             <p>Vegetarian party jollof, full of rich flavors.</p>
@@ -35,7 +33,7 @@ function JollofSection() {
         </div>
 
         <div className="jollof-item">
-          <img src={Jollof} alt="Jollof" />
+          <img src="/images/ExplorePage/Jollof.png" alt="Jollof" />
 
           <div>
             <h3>Party Jollof Rice (Veg)</h3>

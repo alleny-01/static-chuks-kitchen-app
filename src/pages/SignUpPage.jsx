@@ -1,7 +1,4 @@
-import Logo from "../assets/images/SignUpPage/Logo.png";
 import { Link } from "react-router-dom";
-import Facebook from "../assets/images/SignUpPage/Facebook.png";
-import Google from "../assets/images/SignUpPage/Google.png";
 import "../styles/SignUpPage.css";
 import Footer from "../components/layout/Footer";
 
@@ -18,7 +15,7 @@ function SignUpPage() {
       </section>
 
       <section className="sign-in-section">
-        <img src={Logo} alt="Logo" />
+        <img src="/images/SignUpPage/Logo.png" alt="Logo" />
         <h2>Create Your Account</h2>
 
         <div className="sign-in-form">
@@ -49,11 +46,11 @@ function SignUpPage() {
         </div>
 
         <div className="sign-in-with">
-          <img src={Google} alt="Google" />
+          <img src="/images/SignUpPage/Google.png" alt="Google" />
           <a href="#">Continue with Google</a>
         </div>
         <div className="sign-in-with">
-          <img src={Facebook} alt="Facebook" />
+          <img src="/images/SignUpPage/Facebook.png" alt="Facebook" />
           <a href="#">Continue with Apple</a>
         </div>
 

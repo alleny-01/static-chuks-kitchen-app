@@ -52,6 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #1F2937;
 }
 
 .summary-flex-total h3 {
@@ -104,10 +105,11 @@
   text-decoration: none;
   background-color: #ff7a18;
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   color: #fff;
   text-align: center;
   border-radius: 0.5em;
+  font-size: 14px;
 }
 
 @media (max-width: 480px) {

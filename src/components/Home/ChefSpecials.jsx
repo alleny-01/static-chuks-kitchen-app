@@ -1,9 +1,5 @@
 import "./ChefSpecials.css";
-import Jollof from "../../assets/images/HomePage/Jollof.png";
-import Egusi from "../../assets/images/HomePage/Egusi.png";
-import Jollof2 from "../../assets/images/HomePage/Jollof2.png";
 import { Link } from "react-router-dom";
-import Tilapia from "../../assets/images/HomePage/Tilapia.png";
 
 function ChefSpecials() {
   return (
@@ -12,7 +8,7 @@ function ChefSpecials() {
 
       <div className="special-container">
         <div className="special-item">
-          <img src={Tilapia} alt="Tilapia" />
+          <img src="/images/HomePage/Tilapia.png" alt="Tilapia" />
           <div>
             <h3>Spicy Tilapia Pepper Soup</h3>
             <p>
@@ -27,7 +23,7 @@ function ChefSpecials() {
           </div>
         </div>
         <div className="special-item">
-          <img src={Jollof} alt="Jollof" />
+          <img src="/images/HomePage/Jollof.png" alt="Jollof" />
           <div>
             <h3>Jollof Rice & Fried Chicken</h3>
             <p>
@@ -42,7 +38,7 @@ function ChefSpecials() {
           </div>
         </div>
         <div className="special-item">
-          <img src={Jollof} alt="Jollof" />
+          <img src="/images/HomePage/Jollof.png" alt="Jollof" />
 
           <div>
             <h3>Jollof Rice & Fried Chicken</h3>
@@ -58,7 +54,7 @@ function ChefSpecials() {
           </div>
         </div>
         <div className="special-item">
-          <img src={Jollof} alt="Jollof" />
+          <img src="/images/HomePage/Jollof.png" alt="Jollof" />
           <div>
             <h3>Jollof Rice & Smoked Chicken</h3>
             <p>
@@ -73,7 +69,7 @@ function ChefSpecials() {
           </div>
         </div>
         <div className="special-item">
-          <img src={Jollof2} alt="Jollof2" />
+          <img src="/images/HomePage/Jollof2.png" alt="Jollof2" />
           <div>
             <h3>Jollof Rice & Fried Chicken</h3>
             <p>
@@ -88,7 +84,7 @@ function ChefSpecials() {
           </div>
         </div>
         <div className="special-item">
-          <img src={Egusi} alt="Egusi" />
+          <img src="/images/HomePage/Egusi.png" alt="Egusi" />
 
           <div>
             <h3>Egusi Soup & Pounded Yam</h3>

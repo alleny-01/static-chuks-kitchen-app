@@ -1,6 +1,3 @@
-import Jollof from "../assets/images/OrdersPage/Jollof.png";
-import Egusi from "../assets/images/OrdersPage/Egusi.png";
-import Snails from "../assets/images/OrdersPage/Snails.png";
 import "../styles/OrdersPage.css";
 import { Link } from "react-router-dom";
 import NavBar from "../components/layout/NavBar";
@@ -15,7 +12,7 @@ function OrdersPage() {
 
         <div className="orders">
           <div className="order">
-            <img src={Jollof} alt="Jollof" />
+            <img src="/images/OrdersPage/Jollof.png" alt="Jollof" />
 
             <div className="order-details">
               <div>
@@ -37,7 +34,7 @@ function OrdersPage() {
           </div>
 
           <div className="order">
-            <img src={Egusi} alt="Egusi" />
+            <img src="/images/OrdersPage/Egusi.png" alt="Egusi" />
 
             <div className="order-details">
               <div>
@@ -59,7 +56,7 @@ function OrdersPage() {
           </div>
 
           <div className="order">
-            <img src={Snails} alt="Snails" />
+            <img src="/images/OrdersPage/Snails.png" alt="Snails" />
 
             <div className="order-details">
               <div>
@@ -81,7 +78,7 @@ function OrdersPage() {
           </div>
 
           <div className="order">
-            <img src={Jollof} alt="Jollof" />
+            <img src="/images/OrdersPage/Jollof.png" alt="Jollof" />
 
             <div className="order-details">
               <div>

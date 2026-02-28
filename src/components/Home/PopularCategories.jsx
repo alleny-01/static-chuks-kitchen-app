@@ -1,8 +1,4 @@
 import './PopularCategories.css'
-import Grills  from "../../assets/images/HomePage/Grills.png"
-import Jollof from "../../assets/images/HomePage/Jollof.png"
-import Swallow from "../../assets/images/HomePage/Swallow.png"
-import Treats from "../../assets/images/HomePage/Treats.png"
 
 function PopularCategories() {
   return (
@@ -11,32 +7,32 @@ function PopularCategories() {
 
       <div className="popular-container">
         <div className="popular-item">
-          <img src={Jollof} alt='Jollof'/>
+          <img src="/images/HomePage/Jollof.png" alt='Jollof'/>
           <h3>Jollof Delights</h3>
         </div>
 
         <div className="popular-item">
-          <img src={Swallow} alt='Swallow'/>
+          <img src="/images/HomePage/Swallow.png" alt='Swallow'/>
           <h3>Swallow and Soups</h3>
         </div>
 
         <div className="popular-item">
-          <img src={Grills} alt='Grills and BBQ'/>
+          <img src="/images/HomePage/Grills.png" alt='Grills and BBQ'/>
           <h3>Grills and BBQ</h3>
         </div>
 
         <div className="popular-item">
-          <img src={Treats} alt='Treats'/>
+          <img src="/images/HomePage/Treats.png" alt='Treats'/>
           <h3>Sweet Treats</h3>
         </div>
 
         <div className="popular-item">
-          <img src={Swallow} alt='Swallow'/>
+          <img src="/images/HomePage/Swallow.png" alt='Swallow'/>
           <h3>Jollof Delights</h3>
         </div>
 
         <div className="popular-item">
-          <img src={Grills} alt='Grills'/>
+          <img src="/images/HomePage/Grills.png" alt='Grills'/>
           <h3>Jollof Delights</h3>
         </div>
 
