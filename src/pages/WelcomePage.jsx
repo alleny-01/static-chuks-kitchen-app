@@ -1,7 +1,7 @@
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
-import Banner from "../assets/images/WelcomePage/Banner.png";
-import Mobile from "../assets/images/WelcomePage/Welcome Mobile.png"
+import Banner from "../assets/images/WelcomePage/Banner.png"
+import Mobile from "../assets/images/WelcomePage/WelcomeMobile.png"
 import Logo from "../assets/images/WelcomePage/Logo.png";
 import Cutleries from "../assets/images/WelcomePage/Cutleries.png";
 import Delivery from "../assets/images/WelcomePage/Delivery.png";
