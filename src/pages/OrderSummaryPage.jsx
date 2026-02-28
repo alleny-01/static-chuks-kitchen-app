@@ -1,9 +1,9 @@
 import Footer from "../components/layout/Footer";
 import NavBar from "../components/layout/NavBar";
 import { Link } from "react-router-dom";
-import "../styles/OrderSummary.css";
+import "../styles/OrderSummaryPage.css";
 
-function OrderSummary() {
+function OrderSummaryPage() {
   return (
     <>
       <NavBar />
@@ -63,4 +63,4 @@ function OrderSummary() {
   );
 }
 
-export default OrderSummary;
+export default OrderSummaryPage;

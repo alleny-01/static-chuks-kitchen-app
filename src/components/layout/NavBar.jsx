@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/images/Welcomepage/Logo.png";
-import Hamburger from "../../assets/images/Welcomepage/Hamburger.png";
+import Logo from "../../assets/images/WelcomePage/Logo.png";
+import Hamburger from "../../assets/images/WelcomePage/Hamburger.png";
 import { useState } from "react";
 
 function NavBar() {

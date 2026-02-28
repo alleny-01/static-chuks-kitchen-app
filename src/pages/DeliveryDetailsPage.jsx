@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import Footer from '../components/layout/Footer';
 import NavBar from '../components/layout/NavBar';
-import '../styles/DeliveryDetails.css'
+import '../styles/DeliveryDetailsPage.css'
 
-function DeliveryDetails() {
+function DeliveryDetailsPage() {
   return (
     <>
     <NavBar />
@@ -38,4 +38,4 @@ function DeliveryDetails() {
   );
 }
 
-export default DeliveryDetails;
+export default DeliveryDetailsPage;

@@ -1,8 +1,6 @@
 import Logo from "../assets/images/SignInPage/Logo.png";
 import Google from "../assets/images/SignInPage/Google.png";
 import Facebook from "../assets/images/SignInPage/Facebook.png";
-import Mail from "../assets/images/SignInPage/Mail.png";
-import Lock from "../assets/images/SignInPage/Lock.png";
 import "../styles/SignInPage.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/layout/Footer";

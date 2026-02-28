@@ -1,4 +1,3 @@
-import Hero2 from "../../assets/images/HomePage/Hero2.png";
 import './HomeHeroBottom.css'
 
 function HomeHeroBottom() {

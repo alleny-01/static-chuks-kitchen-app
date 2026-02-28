@@ -1,11 +1,7 @@
-import Banner from "../assets/images/SignUpPage/Banner.png";
 import Logo from "../assets/images/SignUpPage/Logo.png";
 import { Link } from "react-router-dom";
-import Call from "../assets/images/SignUpPage/Call.png";
 import Facebook from "../assets/images/SignUpPage/Facebook.png";
 import Google from "../assets/images/SignUpPage/Google.png";
-import Lock from "../assets/images/SignUpPage/Lock.png";
-import Mail from "../assets/images/SignUpPage/Mail.png";
 import "../styles/SignUpPage.css";
 import Footer from "../components/layout/Footer";
 

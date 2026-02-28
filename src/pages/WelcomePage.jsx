@@ -1,10 +1,10 @@
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
-import Banner from "../assets/images/Welcomepage/Banner.png";
-import Mobile from "../assets/images/Welcomepage/Welcome Mobile.png"
-import Logo from "../assets/images/Welcomepage/Logo.png";
-import Cutleries from "../assets/images/Welcomepage/Cutleries.png";
-import Delivery from "../assets/images/Welcomepage/Delivery.png";
+import Banner from "../assets/images/WelcomePage/Banner.png";
+import Mobile from "../assets/images/WelcomePage/Welcome Mobile.png"
+import Logo from "../assets/images/WelcomePage/Logo.png";
+import Cutleries from "../assets/images/WelcomePage/Cutleries.png";
+import Delivery from "../assets/images/WelcomePage/Delivery.png";
 import Footer from "../components/layout/Footer";
 
 function WelcomePage() {

@@ -3,14 +3,12 @@ import { Route, Routes } from "react-router-dom";
 import WelcomePage from "./pages/WelcomePage";
 import SignInPage from "./pages/SignInPage";
 import SignUpPage from "./pages/SignUpPage";
-import NavBar from "./components/layout/NavBar";
 import HomePage from "./pages/HomePage";
 import FoodDetailsPage from "./pages/FoodDetailsPage";
 import OrdersPage from "./pages/OrdersPage";
 import ExplorePage from "./pages/ExplorePage";
-import OrderSummary from "./pages/OrderSummary";
-import Footer from "./components/layout/Footer";
-import DeliveryDetails from "./pages/DeliveryDetails";
+import OrderSummaryPage from "./pages/OrderSummaryPage";
+import DeliveryDetailsPage from "./pages/DeliveryDetailsPage";
 import PaymentPage from "./pages/PaymentPage";
 import LoaderPage from "./pages/LoaderPage";
 import ConfirmationPage from "./pages/ConfirmationPage";
@@ -25,8 +23,8 @@ function App() {
       <Route path="/explore" element={<ExplorePage />} />
       <Route path="/fooddetails" element={<FoodDetailsPage />} />
       <Route path="/cart" element={<OrdersPage />} />
-      <Route path="/summary" element={<OrderSummary />} />
-      <Route path="/deliverydetails" element = {<DeliveryDetails />} />
+      <Route path="/summary" element={<OrderSummaryPage />} />
+      <Route path="/deliverydetails" element = {<DeliveryDetailsPage />} />
       <Route path="/payment" element = {<PaymentPage />} />
       <Route path="/loading" element = {<LoaderPage />} />
       <Route path="/confirmation" element = {<ConfirmationPage />} />
