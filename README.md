@@ -5,6 +5,8 @@ This repository contains a static food e-commerce web application built using mo
 # Live link
 View the live link of the project here
 
+**[Hosted Link](https://static-chuks-kitchen-app.vercel.app/)**
+
 ## Project Overview
 
 - **Static Application**: All data is hardcoded or retrieved from static assets. No backend or API is required.
@@ -20,7 +22,7 @@ View the live link of the project here
   - WelcomePage Intro screen after login.
 
 - **Components**: Structured under src/components with specialized folders for Explore, Home, and layout (navbar, footer).
-- **Assets**: Images and other static resources under src/assets.
+- **public / Images**: Images and other static resources under src/assets.
 - **Styles**: Component-specific and page-specific CSS under src/styles and nested folders.
 
 ## 🛠 Technologies & Tools
@@ -62,7 +64,7 @@ npm run build
 ## Repository Structure
 
 `src/
- assets/           # Images and other static resources
+ public/ Images    # Images and other static resources
  components/       # Reusable UI pieces organized by feature
  pages/            # Route-level components representing pages
  styles/           # CSS files, one per component/page
