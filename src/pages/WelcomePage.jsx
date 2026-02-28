@@ -8,7 +8,7 @@ function WelcomePage() {
       <main className="welcome-section">
       <section className="welcome-img">
         <img src="/images/WelcomePage/Banner.png" alt="banner" className="welcome-desktop"/>
-        <img src="../../../public/images/WelcomePage/WelcomeMobile.png" alt="Mobile-img" className="welcome-mobile"/>
+        <img src="/images/WelcomePage/WelcomeMobile.png" alt="Mobile-img" className="welcome-mobile"/>
       </section>
 
       <section className="get-started">
